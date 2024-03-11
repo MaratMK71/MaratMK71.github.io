@@ -149,7 +149,6 @@ color: rgb(207, 207, 207);
 }
 
 .card-img-bottom {
-    height: 70vh;
     width: 100%;
     position: relative;
     display: flex;
