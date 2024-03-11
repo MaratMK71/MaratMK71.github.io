@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, serif;
+    background: black;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+p {
+    color:rgb(255, 255, 255);
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(185, 190, 189);
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: #d3d3d3;
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #011979 0%, #000000 100%);
+}
+
+.card {
+    background: linear-gradient(180deg, #504f4f 0%, #000000 100%);
+    color: rgb(245, 248, 247);
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
+
+.slide-text,
+.footer-text {
+    color:aquamarine;
+    margin: auto auto;
+}
+
+.slide-text {
+    padding-right: 90px;
+}
+
+
+.btn-outline-primary {
+    background: linear-gradient(270deg, #030303 0%, #000000 100%);
+    color: white;
+    border-color: white;
+    
+}
+
+.btn-outline-primary:hover {
+    background-color: rgba(172, 170, 170, 0);
+    border-color:  #7e7c7c;
+    color: #7e7c7c;
+}
+
+.btn-primary {
+    background: linear-gradient(270deg, #4d4c4c 0%, #000000 100%);
+    color: white;
+    border-color: white;
+}
+
+.btn-primary:hover {
+    background-color: rgba(172, 170, 170, 0);
+    border-color:  #7e7c7c;
+    color: #7e7c7c;
+}
+
+
+.btn-production,
+.footer-contacts {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-production:hover {
+    color: #7e7c7c;
+    border-color: #7e7c7c;
+}
+
+.footer-contacts:hover {
+    color: #7e7c7c;
+}
+
+footer {
+    background: linear-gradient(270deg, #030303 0%, #000000 100%);
+}
+
+.mt-4 {
+    margin-bottom: 1.5em;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+
+.card-title {
+color: rgb(207, 207, 207);
+}
+
+.card-img-bottom {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
